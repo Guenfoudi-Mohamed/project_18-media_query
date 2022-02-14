@@ -1,42 +1,58 @@
-*{margin: 0px;padding: 0px;box-sizing: border-box;list-style: none;outline: none;text-decoration: none;}
-body{min-height: 100vh;font-family: 'Libre Baskerville', serif;background-color: #0b2442;}
-:root{
-    --value:71.25px;
-}
-/* start header_top */
-body  #header_top{max-width:1440px;margin: 0px auto; min-height: var(--value);position: sticky;top:20px;z-index: 1;}
-    /* start navbar */
-body  #header_top .navbar{width: 95%;min-height: inherit;display: flex;justify-content: flex-end;align-items: center;position: relative;margin-left: 5%;}
-        /* start logo */
-body  #header_top .navbar .logo{position: absolute;left: 0px;}
-body  #header_top .navbar .logo svg{display: block;}
-        /* start line */
-body  #header_top .navbar .line{width: 500px;height: 1px;background-color:#fff;position: absolute;left: calc(5% + 48px);z-index: 1;}
-        /* start nav_main */
-body  #header_top .navbar .nav_main{padding-right: 192px;padding-left: 10%;-webkit-backdrop-filter: blur(10px);-moz-backdrop-filter: blur(10px);backdrop-filter: blur(10px);background-image:linear-gradient(to left ,rgb(255,255,255,.2),rgb(255,255,255,.02));}
-body  #header_top .navbar .nav_main ul{display: flex;}
-body  #header_top .navbar .nav_main ul li a{padding: 30px 0px;margin-right: 20px;border-bottom:2.5px solid rgba(255, 255, 255, 0);color: #fff;font-weight: bold;display: inline-block;height: 81px;}
-body  #header_top .navbar .nav_main ul li:first-child a{border-bottom:2.5px solid #fff;}
-body  #header_top .navbar .nav_main ul li:last-child a{margin-right: 0px;}
-body  #header_top .navbar .nav_main ul li a span{color: rgb(231, 231, 231);font-weight:initial;}
-body  #header_top .navbar .nav_main ul li a:hover{border-bottom:2.5px solid #fff;color: #fff;}
-        /* start humbrger_menu */
-body  #header_top .navbar .humbrger_menu{width:29px;height:21px;display: none;flex-direction: column;justify-content: space-between;}
-body  #header_top .navbar .humbrger_menu .bar{width: 100%;height: 2px;background-color: #fff;}
-/* start header_bottom */
-body  #header_bottom{max-width:1440px;margin: 0px auto;min-height: 700px;background-image: url('images/starter-code/assets/home/background-home-desktop.jpg');background-repeat: no-repeat;background-size: cover;position: relative;top: -81px;}
-body  #header_bottom .container{width: calc(80% - calc(48px * 2));min-height: calc(700px - var(--value));position: absolute;bottom: 0px;left: 50%;transform: translateX(-50%);display: flex;justify-content: space-between;align-items: center;}
-    /* start content_left */
-body #header_bottom .container .content_left h3, .content_left  h1, .content_left  p{color: #fff;}
-body  #header_bottom .container .content_left h3{word-spacing: 2px;letter-spacing: 2px;color:rgb(231, 231, 231);}
-body  #header_bottom .container .content_left h1{font-size: 7em;display: inline-block;letter-spacing: 5px;margin: 15px 0px;}
-body  #header_bottom .container .content_left p{max-width: 384px;text-align: justify;line-height: 25px;color:rgb(231, 231, 231) ;}
-    /* start content_right */
-body  #header_bottom .container .content_right{WIDTH: 230PX;height: 230px;background: #fff;display: flex;justify-content: center;align-items: center;border-radius: 50%;}
-body  #header_bottom .container .content_right h3{letter-spacing: 2px;font-size: 1.4rem;}
-@media(min-width:280px) and (max-width:1345px){
-    body  #header_top .navbar .logo{left: var(--value);}
-    body  #header_top .navbar .line{display: none;}
-    body  #header_top .navbar{width: 100%; margin: 0px auto;}
-    body  #header_top .navbar .nav_main{padding-right: var(--value);padding-left: var(--value);}
-}
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+    <head>
+    <meta charset="utf-8">
+        <title>project_18-media_query</title>
+        <link rel="stylesheet" href="project_18-media_query.css" type="text/css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <!-- start header -->
+        <!-- <header> -->
+            <!-- header_top -->
+            <div id="header_top">
+                <!-- navbar -->
+                <div class="navbar">
+                    <!-- logo -->
+                    <div class="logo">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48"><g fill="none" fill-rule="evenodd"><circle cx="24" cy="24" r="24" fill="#FFF"/><path fill="#0B0D17" d="M24 0c0 16-8 24-24 24 15.718.114 23.718 8.114 24 24 0-16 8-24 24-24-16 0-24-8-24-24z"/></g></svg>
+                    </div>
+                    <div class="line"></div>
+                    <!-- navigation -->
+                    <nav class="nav_main">
+                        <ul>
+                            <li><a href="#">00<span> HOME</span></a></li>
+                            <li><a href="#">01<span> DESTINATION</span></a></li>
+                            <li><a href="#">02<span> CREW</span></a></li>
+                            <li><a href="#">03<span> TECHNOLOGY</span></a></li>
+                        </ul>
+                    </nav>
+                    <!-- humbrger menu -->
+                    <!-- <lable class="humbrger_menu" for="humbrger_menu">
+                        <div class="bar"></div>
+                        <div class="bar"></div>
+                        <div class="bar"></div>
+                    </lable> -->
+                </div>
+            </div>
+            <!-- header_bottom -->
+            <div id="header_bottom">
+                <div class="container">
+                    <!-- content_left -->
+                    <div class="content_left">
+                        <h3>SO, YOU WANT TO TRAVEL TO</h3>
+                        <h1>SPACE</h1>
+                        <p>Let's face it; if you want to go to sapace,you might as well genuinely go to outer space and not hover kind of on the edge of it. Well sit back, and relax because we'll give you a truly out of this world experience!</p>
+                    </div>
+                    <!-- content_right -->
+                    <div class="content_right">
+                        <div class="circle">
+                            <h3>EXPLORE</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <!-- </header> -->
+        <!-- end header -->
+    </body>
+</html>
