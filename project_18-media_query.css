@@ -33,7 +33,7 @@ body  #header_bottom .container .content_left h3{word-spacing: 2px;letter-spacin
 body  #header_bottom .container .content_left h1{font-size: 7em;display: inline-block;letter-spacing: 5px;margin: 15px 0px;}
 body  #header_bottom .container .content_left p{max-width: 384px;text-align: justify;line-height: 25px;color:rgb(231, 231, 231) ;}
     /* start content_right */
-body  #header_bottom .container .content_right{WIDTH: 250PX;height: 250px;background: #fff;display: flex;justify-content: center;align-items: center;border-radius: 50%;}
+body  #header_bottom .container .content_right{WIDTH: 270PX;height: 270px;background: #fff;display: flex;justify-content: center;align-items: center;border-radius: 50%;}
 body  #header_bottom .container .content_right h3{letter-spacing: 2px;font-size: 1.4rem;}
 @media(min-width:280px) and (max-width:1390px){
     body  #header_top .navbar .logo{left: var(--value);}
@@ -41,7 +41,7 @@ body  #header_bottom .container .content_right h3{letter-spacing: 2px;font-size:
     body  #header_top .navbar{width: 100%; margin: 0px auto;}
     body  #header_top .navbar .nav_main{padding-right: var(--value);padding-left: var(--value);}
 }
-@media(min-width:280px) and (max-width:925px){
+@media(min-width:280px) and (max-width:1119px){
     body  #header_top .navbar .nav_main ul li a span{display: none;}
     body  #header_bottom{background-image: url('images/starter-code/assets/home/background-home-tablet.jpg');}
     body  #header_bottom .container{flex-direction: column;justify-content: center;position: static;}
@@ -127,5 +127,33 @@ body #main #crew .container .content .contentLeft p{margin-bottom: 107px;}
 body #main #crew .container .content .contentLeft .circles{display: flex;}
 body #main #crew .container .content .contentLeft .circles .circle{width: 10px;height: 10px;background-color: #fff;border-radius: 50%;}
 body #main #crew .container .content .contentLeft .circles .circle:nth-child(2){margin: 0px 10px;}
-body #main #crew .container .content .contentRight{max-width: 575px;position: relative;}
+body #main #crew .container .content .contentRight{max-width: 500px;position: relative;}
 body #main #crew .container .content .contentRight img{width:100%;}
+@media(min-width:280px) and (max-width:1244px){
+    body #main #crew .container .content .contentRight{max-width: 400px;}
+}
+@media(min-width:280px) and (max-width:1119px){
+    body #main #crew .container .content{flex-direction: column;align-items: center;}
+    body #main #crew .container .content .contentLeft{position: static;}
+    body #main #crew .container .content .contentLeft span{text-align: center;display: block;}
+    body #main #crew .container .content .contentLeft :is(h1,p){text-align: center;}
+    body #main #crew .container .content .contentLeft .circles{justify-content: center;}
+}
+/* satrt technology */
+body #main #technology{min-height: 700px;width: 100%;background-image:url('/images/starter-code/assets/technology/background-technology-desktop.jpg');background-repeat: no-repeat;background-size: 100% 100%;padding: calc(101px + var(--value)) 0px 101px 0px;}
+body #main #technology .container{margin: 0px 0px 0px auto;max-width: calc(90% - 48px);width: initial;}
+body #main #technology .container .content{justify-content: space-between;align-items: center;}
+body #main #technology .container .content .contentLeft{max-width: 433px;display: flex;align-items: center;}
+/* body #main #technology .container .content .contentLeft .circles{margin-right: 5em;} */
+body #main #technology .container .content .contentLeft .circles .circle{width: 67px;height: 67px;display: flex;justify-content: center;align-items: center; border-radius: 50%;border:1px solid rgb(200, 200, 200);}
+body #main #technology .container .content .contentLeft .circles .circle:nth-child(2){margin: 15px 0px;}
+body #main #technology .container .content .contentLeft .circles .circle span{color: #fff;font-size: 25px;font-weight: bold;}
+body #main #technology .container .content .contentLeft .terminologyContent{position: relative;left: 60px;}
+body #main #technology .container .content .contentLeft .terminologyContent .terminology:nth-child(n+2){display: none;}
+body #main #technology .container .content .contentLeft .terminologyContent .terminology :is(span , p){color: rgb(200,200,200);}
+body #main #technology .container .content .contentLeft .terminologyContent .terminology h1{font-size: 35px;margin: 32px 0px;color: #fff;}
+body #main #technology .container .content .contentRight{max-width: 515px;}
+body #main #technology .container .content .contentRight img{width:100%;}
+@media(min-width:280px) and (max-width:1119px){
+    body #main #technology .container .content{justify-content: center;align-items: center;flex-direction: column;}
+}
