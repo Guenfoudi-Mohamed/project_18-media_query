@@ -25,6 +25,10 @@ for(let i = 0;i<circleTerminology.length;i++){
     });
 };
 window.onload = function(){
+    let arrRandomIndex = Math.floor(Math.random() * 4);
+    itemPlanet[arrRandomIndex].click();    
+    const numRndom = Math.floor(Math.random() * 4);
+    circles[numRndom].click();
     const numRandomCircleTerminology = Math.floor(Math.random() * 3);
     circleTerminology[numRandomCircleTerminology].click();
 }
