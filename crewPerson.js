@@ -18,7 +18,4 @@ for(let i = 0;i<circles.length;i++){
         }
     });
 };
-window.onload = function(){
-    const numRndom = Math.floor(Math.random() * 4);
-    circles[numRndom].click();
-}
+
