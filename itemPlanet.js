@@ -4,7 +4,7 @@
 const itemPlanet = document.querySelectorAll('body #main section .container .content .contentRight nav .list .item a');
 for(let i = 0;i<itemPlanet.length;i++){
     itemPlanet[i].addEventListener('click',function(){
-        const arrPlanet = ['/images/starter-code/assets/destination/image-moon.png','/images/starter-code/assets/destination/image-mars.png','/images/starter-code/assets/destination/image-europa.png','/images/starter-code/assets/destination/image-titan.png']
+        const arrPlanet = ['images/starter-code/assets/destination/image-moon.png','images/starter-code/assets/destination/image-mars.png','images/starter-code/assets/destination/image-europa.png','/images/starter-code/assets/destination/image-titan.png']
         const planet = document.querySelector('body #main section .container .content .contentRight .discriptionPlanet');
         for(let x = 0;x<itemPlanet.length;x++){
             if(x == i){
