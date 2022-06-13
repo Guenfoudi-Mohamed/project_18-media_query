@@ -6,7 +6,7 @@ for(let i = 0;i<circleTerminology.length;i++){
     circleTerminology[i].addEventListener('click',function(){
         const terminology = document.querySelectorAll('body #main #technology .container .content .contentLeft .terminologyContent .terminology');
         const imgTerminology = document.querySelector('body #main #technology .container .content .contentRight img');
-        const arrImgTerminology = ['/images/starter-code/assets/technology/image-launch-vehicle-portrait.jpg','/images/starter-code/assets/technology/image-spaceport-portrait.jpg','/images/starter-code/assets/technology/image-space-capsule-portrait.jpg'];
+        const arrImgTerminology = ['images/starter-code/assets/technology/image-launch-vehicle-portrait.jpg','images/starter-code/assets/technology/image-spaceport-portrait.jpg','images/starter-code/assets/technology/image-space-capsule-portrait.jpg'];
         for(let x = 0;x<terminology.length;x++){
             if(x == i){
 
