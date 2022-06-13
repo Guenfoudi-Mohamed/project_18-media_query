@@ -23,7 +23,4 @@ for(let i = 0;i<itemPlanet.length;i++){
     });
 }
 
-window.onload = function(){
-    let arrRandomIndex = Math.floor(Math.random() * 4);
-    itemPlanet[arrRandomIndex].click();    
-}
+
