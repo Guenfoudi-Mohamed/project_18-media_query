@@ -163,26 +163,27 @@ body #main #technology .container .content{justify-content: space-between;align-
         /* start contentLeft */
 body #main #technology .container .content .contentLeft{max-width: 433px;display: flex;align-items: center;}
             /* start circles */
-body #main #technology .container .content .contentLeft .circles .circle{width: 67px;height: 67px;display: flex;justify-content: center;align-items: center; border-radius: 50%;border:1px solid rgb(200, 200, 200);cursor: pointer;}
+body #main #technology .container .content .contentLeft .circles .circle{width: 67px;height: 67px;display: flex;justify-content: center;align-items: center; border-radius: 50%;border:1px solid rgb(200, 200, 200);cursor: pointer;cursor: pointer;}
 body #main #technology .container .content .contentLeft .circles .circle:nth-child(2){margin: 15px 0px;}
 body #main #technology .container .content .contentLeft .circles .circle span{color: #fff;font-size: 25px;font-weight: bold;}
-body #main #technology .container .content .contentLeft .circles .circle:hover{background-color: rgba(255, 255, 255, 0.8);border-color: #000;}
+body #main #technology .container .content .contentLeft .circles .circle:hover{background-color: rgba(255, 255, 255, 0.9);border-color: #000;}
 body #main #technology .container .content .contentLeft .circles .circle:hover span{color: rgba(0, 0, 0, 0.8);}
 
             /* start terminologyContent */
 body #main #technology .container .content .contentLeft .terminologyContent{position: relative;left: 30px;}
 body #main #technology .container .content .contentLeft .terminologyContent .terminology:nth-child(n+2){display: none;}
 body #main #technology .container .content .contentLeft .terminologyContent .terminology :is(span , p){color: rgb(200,200,200);}
-body #main #technology .container .content .contentLeft .terminologyContent .terminology h1{font-size: 35px;margin: 32px 0px;color: #fff;}
+body #main #technology .container .content .contentLeft .terminologyContent .terminology h1{font-size: 35px;margin: 25px 0px;color: #fff;}
         /* start contentRight */
 body #main #technology .container .content .contentRight{max-width: 480px;margin-left: 0px;}
 body #main #technology .container .content .contentRight img{width:100%;}
 @media(min-width:280px) and (max-width:1119px){
+    body #main #technology{background-image:url('/images/starter-code/assets/technology/background-technology-tablet.jpg');}
     body #main #technology .container{max-width: 100%;margin: 0px auto;}
     body #main #technology .container .content{justify-content: center;align-items: center;flex-direction: column-reverse;}
     body #main #technology .container .content .contentLeft{max-width: 80%;flex-direction: column;margin-top: 64px;}
     body #main #technology .container .content .contentLeft .circles{display: flex;}
-    body #main #technology .container .content .contentLeft .circles .circle{width: 50px;height: 50px;cursor: pointer;}
+    body #main #technology .container .content .contentLeft .circles .circle{width: 50px;height: 50px;}
     body #main #technology .container .content .contentLeft .circles .circle:hover{color: #000;background-color: rgba(255, 255, 255, .9);}
     body #main #technology .container .content .contentLeft .circles .circle:hover span{color: #000;}
     body #main #technology .container .content .contentLeft .circles .circle:nth-child(2){margin: 0px 15px;}
