@@ -78,7 +78,7 @@ body  #header_bottom .container .content_right h3{letter-spacing: 2px;font-size:
     /* start main */
 body #main{max-width: 1440px;margin: 0px auto;}
 /* start destination */
-body #main section{min-height: 700px;width: 100%;background-image:url('/images/starter-code/assets/destination/background-destination-desktop.jpg');background-repeat: no-repeat;background-size: 100% 100%;padding: calc(101px + var(--value)) 0px 101px 0px;}
+body #main section{min-height: 700px;width: 100%;background-image:url('images/starter-code/assets/destination/background-destination-desktop.jpg');background-repeat: no-repeat;background-size: 100% 100%;padding: calc(101px + var(--value)) 0px 101px 0px;}
 body #main section .container{width: calc(80% - calc(48px * 2));/*min-height: calc(700px - 101px - var(--value));*/margin: 0px auto;}
     /* start h1 title */
 body #main section .container > h1{color: #fff;}
@@ -116,7 +116,7 @@ body #main section .container .content .contentRight .discriptionPlanet .planet 
     body #main section .container .content .contentRight .discriptionPlanet .planet .distanceTimeDiscription{justify-content: center;flex-wrap: wrap;}
 }
 @media(min-width:280px) and (max-width:466px){    
-    body #main #destination{background-image:url('/images/starter-code/assets/destination/background-destination-mobile.jpg');}
+    body #main #destination{background-image:url('images/starter-code/assets/destination/background-destination-mobile.jpg');}
     body #main section .container .content .contentRight nav .list{max-width: 165px;flex-direction: column;align-items: center;margin: 0px auto;}
     body #main section .container .content .contentRight nav .list .item{margin-right: 0px;}
     body #main section .container .content .contentRight nav .list .item a{border-bottom: none;text-align: center;}
@@ -129,7 +129,7 @@ body #main section .container .content .contentRight .discriptionPlanet .planet 
 }
 /* end destination */
 /* start crew */
-body #main #crew{min-height: initial;width: 100%;background-image:url('/images/starter-code/assets/crew/background-crew-desktop.jpg');background-repeat: no-repeat;background-size: 100% 100%;padding: calc(101px + var(--value)) 0px 0px 0px;}
+body #main #crew{min-height: initial;width: 100%;background-image:url('images/starter-code/assets/crew/background-crew-desktop.jpg');background-repeat: no-repeat;background-size: 100% 100%;padding: calc(101px + var(--value)) 0px 0px 0px;}
 body #main #crew .container .content{justify-content: space-between;align-items: flex-end;}
 body #main #crew .container .content .contentLeft{position: relative;top: -101px;}
 body #main #crew .container .content .contentLeft span{color: rgb(200, 200, 200);;}
@@ -156,7 +156,7 @@ body #main #crew .container .content .contentRight img{width:100%;max-height: 50
     body #main #crew .container .content .contentLeft .circles{justify-content: center;}
 }
 /* satrt technology */
-body #main #technology{min-height: 700px;width: 100%;background-image:url('/images/starter-code/assets/technology/background-technology-desktop.jpg');background-repeat: no-repeat;background-size: 100% 100%;padding: calc(101px + var(--value)) 0px 101px 0px;}
+body #main #technology{min-height: 700px;width: 100%;background-image:url('images/starter-code/assets/technology/background-technology-desktop.jpg');background-repeat: no-repeat;background-size: 100% 100%;padding: calc(101px + var(--value)) 0px 101px 0px;}
 body #main #technology .container{margin: 0px 0px 0px auto;max-width: calc(90% - 48px);width: initial;}
     /* satrt content */
 body #main #technology .container .content{justify-content: space-between;align-items: center;}
@@ -178,7 +178,7 @@ body #main #technology .container .content .contentLeft .terminologyContent .ter
 body #main #technology .container .content .contentRight{max-width: 480px;margin-left: 0px;}
 body #main #technology .container .content .contentRight img{width:100%;}
 @media(min-width:280px) and (max-width:1119px){
-    body #main #technology{background-image:url('/images/starter-code/assets/technology/background-technology-tablet.jpg');}
+    body #main #technology{background-image:url('images/starter-code/assets/technology/background-technology-tablet.jpg');}
     body #main #technology .container{max-width: 100%;margin: 0px auto;}
     body #main #technology .container .content{justify-content: center;align-items: center;flex-direction: column-reverse;}
     body #main #technology .container .content .contentLeft{max-width: 80%;flex-direction: column;margin-top: 64px;}
